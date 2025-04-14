@@ -49,9 +49,8 @@ img {
     padding: 60px;
     margin-bottom: 30px;
 }
-.recipe-list li a div {
+.recipe-list li a span {
     background-color: rgb(156, 142, 142);
-    display: inline;
     border: 4px solid gray;
 }
 
