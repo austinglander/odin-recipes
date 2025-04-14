@@ -2,7 +2,6 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-/* Dark theme with centered contents*/
 body {
     background-color: #121212;
     margin: 50px auto;
@@ -13,11 +12,11 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
     color: #F0F0F0;
 }
 
-
 img {
     border: 10px solid rgba(255, 255, 255, 0.74);
     margin: 0 auto;
     display: block;
+    border-radius: 20px
 }
 
 .home {
@@ -29,6 +28,7 @@ img {
     display: block;
     text-align: center;
     text-decoration: none;
+    border-radius: 20px
 }
 .home:hover {
     background-color: #ffffff2e;
@@ -54,6 +54,11 @@ img {
     display: inline;
     border: 4px solid gray;
 }
+
+.garlic, .potatoes, .chicken {
+    border-radius: 20px;
+}
+
 .garlic {
     background-image: url("images/garlic-knots.jpg");
 }
@@ -63,6 +68,7 @@ img {
 .chicken {
     background-image: url("images/chicken.webp");
 }
+
 .chicken:hover, .potatoes:hover, .garlic:hover {
     opacity: 0.7;
 }
