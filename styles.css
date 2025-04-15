@@ -5,7 +5,12 @@
 body {
     background-color: #121212;
     margin: 50px auto;
-    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
 }
 
 p, h1, h2, h3, h4, h5, h6, ul, ol {
@@ -24,7 +29,7 @@ img {
     color: white;
     background-color: #ffffff59;
     font-size: 30px;
-    padding: 10px 30px;
+    padding: 10px 120px;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -34,11 +39,20 @@ img {
     background-color: #ffffff2e;
 }
 
+
 .recipe-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
 
 .recipe-list li a {
     text-decoration: none;
@@ -46,8 +60,7 @@ img {
     display: block;
     color: black;
     font-size: 50px;
-    padding: 60px;
-    margin-bottom: 30px;
+    padding: 60px 0;
 }
 .recipe-list li a span {
     background-color: rgb(156, 142, 142);
