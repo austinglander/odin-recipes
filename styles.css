@@ -49,10 +49,13 @@ img {
     max-width: 800px;
     
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
+.recipe-list li {
+    width: 800px;
+}
 
 .recipe-list li a {
     text-decoration: none;
